@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  padding: 8px;
+  background-position: left;
+  background: radial-gradient(
+    circle at top,
+    /* #ff0606 0%,
+    #d80936fa 50%  */
+    rgb(205, 84, 84) 0%,
+    rgb(22, 22, 131) 35%,
+    rgb(34, 130, 149) 100%
+  );
+}
+
+@font-face {
+  font-family: "Honk";
+  src: url("./assets/fonts/LuckiestGuy-Regular.ttf");
+}
+
+.logo {
+  background-image: linear-gradient(90deg, #fdf0d5, #f8a60cd8);
+  background-clip: text;
+  color: transparent;
+  font-family: "Honk";
+}
